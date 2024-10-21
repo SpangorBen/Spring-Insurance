@@ -9,28 +9,16 @@ import java.time.LocalDate;
 @Table(name = "home_insurance_policies")
 public class HomeInsurancePolicy extends InsurancePolicy{
 
-    private String propertyType; // (apartment, house, etc.)
     private double propertyValue;
-    private String location;  // (or a separate Location entity for risk zones)
-    private boolean securitySystem;  // True if security system present
+    private boolean securitySystem;
 
     public HomeInsurancePolicy() {
     }
 
-    public HomeInsurancePolicy(String policyNumber, LocalDate effectiveDate, User user, String propertyType, double propertyValue, String location, boolean securitySystem) {
-        super(policyNumber, effectiveDate, user);
-        this.propertyType = propertyType;
+    public HomeInsurancePolicy(String policyNumber, LocalDate effectiveDate, User user, String assetType, boolean riskFactor, double propertyValue, boolean securitySystem) {
+        super(policyNumber, effectiveDate, user, assetType, riskFactor);
         this.propertyValue = propertyValue;
-        this.location = location;
         this.securitySystem = securitySystem;
-    }
-
-    public String getPropertyType() {
-        return propertyType;
-    }
-
-    public void setPropertyType(String propertyType) {
-        this.propertyType = propertyType;
     }
 
     public double getPropertyValue() {
@@ -41,13 +29,6 @@ public class HomeInsurancePolicy extends InsurancePolicy{
         this.propertyValue = propertyValue;
     }
 
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
 
     public boolean isSecuritySystem() {
         return securitySystem;
@@ -60,9 +41,11 @@ public class HomeInsurancePolicy extends InsurancePolicy{
     @Override
     public String toString() {
         return "HomeInsurancePolicy{" +
-                "propertyType='" + propertyType + '\'' +
+                "policyNumber='" + getPolicyNumber() + '\'' +
+                ", assetType='" + getAssetType() + '\'' +
+                ", riskFactor=" + isRiskFactor() +
+                ", effectiveDate=" + getEffectiveDate() +
                 ", propertyValue=" + propertyValue +
-                ", location='" + location + '\'' +
                 ", securitySystem=" + securitySystem +
                 '}';
     }

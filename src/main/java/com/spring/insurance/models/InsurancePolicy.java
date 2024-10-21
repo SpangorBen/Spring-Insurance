@@ -14,6 +14,8 @@ public abstract class InsurancePolicy {
     private Long id;
 
     private String policyNumber;
+    private String assetType;
+    private boolean riskFactor;
     private LocalDate effectiveDate;
 
     @ManyToOne(fetch = FetchType.LAZY)
@@ -23,10 +25,12 @@ public abstract class InsurancePolicy {
     public InsurancePolicy() {
     }
 
-    public InsurancePolicy(String policyNumber, LocalDate effectiveDate, User user) {
+    public InsurancePolicy(String policyNumber, LocalDate effectiveDate, User user, String assetType, boolean riskFactor) {
         this.policyNumber = policyNumber;
         this.effectiveDate = effectiveDate;
         this.user = user;
+        this.assetType = assetType;
+        this.riskFactor = riskFactor;
     }
 
     public Long getId() {
@@ -43,6 +47,22 @@ public abstract class InsurancePolicy {
 
     public void setPolicyNumber(String policyNumber) {
         this.policyNumber = policyNumber;
+    }
+
+    public String getAssetType() {
+        return assetType;
+    }
+
+    public void setAssetType(String assetType) {
+        this.assetType = assetType;
+    }
+
+    public boolean isRiskFactor() {
+        return riskFactor;
+    }
+
+    public void setRiskFactor(boolean riskFactor) {
+        this.riskFactor = riskFactor;
     }
 
     public LocalDate getEffectiveDate() {

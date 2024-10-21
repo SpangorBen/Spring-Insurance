@@ -1,5 +1,6 @@
 package com.spring.insurance.models;
 
+import com.spring.insurance.models.enums.InsuranceType;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
@@ -12,29 +13,25 @@ public class Quote {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id")
-    private User user;
+    @Enumerated(EnumType.STRING)
+    private InsuranceType insuranceType; // Type of insurance (AUTO, HOME, HEALTH)
 
-    @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "policy_id")
-    private InsurancePolicy InsurancePolicy;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "insurance_id") // Foreign key to the Insurance table
+    private InsurancePolicy insurance;
 
     private double quoteAmount;
     private LocalDate quoteDate;
-    private String insuranceType;
 
     public Quote() {
     }
 
-    public Quote(User user, AutoInsurancePolicy InsurancePolicy, double quoteAmount, LocalDate quoteDate, String insuranceType) {
-        this.user = user;
-        this.InsurancePolicy = InsurancePolicy;
+    public Quote(InsuranceType insuranceType, InsurancePolicy insurance, double quoteAmount, LocalDate quoteDate) {
+        this.insuranceType = insuranceType;
+        this.insurance = insurance;
         this.quoteAmount = quoteAmount;
         this.quoteDate = quoteDate;
-        this.insuranceType = insuranceType;
     }
-
 
     public Long getId() {
         return id;
@@ -44,20 +41,20 @@ public class Quote {
         this.id = id;
     }
 
-    public User getUser() {
-        return user;
+    public InsuranceType getInsuranceType() {
+        return insuranceType;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setInsuranceType(InsuranceType insuranceType) {
+        this.insuranceType = insuranceType;
     }
 
-    public InsurancePolicy getInsurancePolicy() {
-        return InsurancePolicy;
+    public InsurancePolicy getInsurance() {
+        return insurance;
     }
 
-    public void setInsurancePolicy(InsurancePolicy insurancePolicy) {
-        InsurancePolicy = insurancePolicy;
+    public void setInsurance(InsurancePolicy insurance) {
+        this.insurance = insurance;
     }
 
     public double getQuoteAmount() {
@@ -76,23 +73,14 @@ public class Quote {
         this.quoteDate = quoteDate;
     }
 
-    public String getInsuranceType() {
-        return insuranceType;
-    }
-
-    public void setInsuranceType(String insuranceType) {
-        this.insuranceType = insuranceType;
-    }
-
     @Override
     public String toString() {
         return "Quote{" +
                 "id=" + id +
-                ", user=" + user +
-                ", InsurancePolicy=" + InsurancePolicy +
+                ", insuranceType=" + insuranceType +
+                ", insurance=" + insurance +
                 ", quoteAmount=" + quoteAmount +
                 ", quoteDate=" + quoteDate +
-                ", insuranceType='" + insuranceType + '\'' +
                 '}';
     }
 }

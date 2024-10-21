@@ -12,12 +12,16 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "name")
+    @Column(nullable = false)
     private String name;
 
-    private String address;
+    @Column(nullable = false, unique = true)
     private String email;
+
+    private String address;
     private String phone;
+
+    @Column(nullable = false)
     private LocalDate birthDate;
 
     public User() {
