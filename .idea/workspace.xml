@@ -1,42 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="insurance.spring:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c1338b2-6804-4a93-9147-9c8113113d2c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1249" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/1259" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1259" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16515" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/16515" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16517" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/16517" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16523" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/16523" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16525" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/16525" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/2608" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2608" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/2619" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2619" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/2658" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2658" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/2659" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2659" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/2696" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2696" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/db/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg_stat_tmp/db_0.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg_stat_tmp/db_13481.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg_stat_tmp/db_16384.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg_stat_tmp/global.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/db/pg_wal/000000010000000000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/db/pg_xact/0000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/postmaster.pid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/GenericRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/GenericRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/insurance/DatabaseConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/insurance/DatabaseConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +36,13 @@
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 4
@@ -75,8 +56,13 @@
   "keyToString": {
     "Maven.insurance.spring [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 10.1.301.executor": "Run",
     "git-widget-placeholder": "SI-1-user-registration",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -190,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729613027078</updated>
-      <workItem from="1729613032711" duration="305000" />
+      <workItem from="1729613032711" duration="957000" />
     </task>
     <servers />
   </component>
