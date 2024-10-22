@@ -1,4 +1,6 @@
 package com.spring.insurance.repositories.interfaces;
 
-public interface QuoteRepository {
+import com.spring.insurance.models.Quote;
+
+public interface QuoteRepository extends GenericRepository<Quote> {
 }
