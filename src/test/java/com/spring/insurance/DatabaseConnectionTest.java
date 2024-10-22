@@ -14,7 +14,7 @@ import java.sql.SQLException;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration("classpath:context.xml")
+//@ContextConfiguration("classpath:WEB-INF/applicationContext.xml")
 class DatabaseConnectionTest {
 
     @Autowired
@@ -32,13 +32,13 @@ class DatabaseConnectionTest {
             System.out.println("Driver Name: " + metaData.getDriverName());
             System.out.println("Driver Version: " + metaData.getDriverVersion());
 
-
-            String catalog = connection.getCatalog();
-            if (catalog != null) {
-                System.out.println("Current Catalog: " + catalog);
-            } else {
-                System.out.println("Catalog is null"); // PostgreSQL doesn't use catalogs
-            }
+//
+//            String catalog = connection.getCatalog();
+//            if (catalog != null) {
+//                System.out.println("Current Catalog: " + catalog);
+//            } else {
+//                System.out.println("Catalog is null"); // PostgreSQL doesn't use catalogs
+//            }
 
 
             // Getting schema name is database specific, for example in SQL Server, the getSchema method returns null
@@ -53,8 +53,6 @@ class DatabaseConnectionTest {
             } catch (SQLException e){
                 System.out.println("Error getting schema. The getSchema method is not supported by this driver: " + e.getMessage());
             }
-
-
 
 
         }
