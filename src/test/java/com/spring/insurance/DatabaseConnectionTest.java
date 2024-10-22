@@ -14,7 +14,7 @@ import java.sql.SQLException;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration("classpath:context.xml")
+//@ContextConfiguration("classpath:WEB-INF/applicationContext.xml")
 class DatabaseConnectionTest {
 
     @Autowired

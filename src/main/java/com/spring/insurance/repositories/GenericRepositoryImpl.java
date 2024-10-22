@@ -5,19 +5,19 @@ import jakarta.transaction.Transactional;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.logging.Logger;
 
-@Repository
 public class GenericRepositoryImpl<T> implements GenericRepository<T> {
 
-    private final Logger logger = Logger.getLogger(GenericRepositoryImpl.class.getName());
+    protected final Logger logger = Logger.getLogger(GenericRepositoryImpl.class.getName());
 
     @Autowired
-    private SessionFactory sessionFactory;
+    protected SessionFactory sessionFactory;
 
     protected Class<T> persistentClass;
 
@@ -30,7 +30,9 @@ public class GenericRepositoryImpl<T> implements GenericRepository<T> {
     @Transactional
     public T save(T t) {
         try (Session session = sessionFactory.openSession()) {
+//            Transaction transaction = session.beginTransaction();
             session.persist(t);
+//            transaction.commit();
             return t;
         } catch (HibernateException e) {
             logger.severe("Error saving entity: " + e.getMessage());
