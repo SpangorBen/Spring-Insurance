@@ -1,5 +1,6 @@
 package com.spring.insurance.models;
 
+import com.spring.insurance.models.enums.InsuranceStatus;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
@@ -16,6 +17,10 @@ public abstract class InsurancePolicy {
     private String policyNumber;
     private String assetType;
     private boolean riskFactor;
+
+    @Enumerated(EnumType.STRING)
+    private InsuranceStatus status;
+
     private LocalDate effectiveDate;
 
     @ManyToOne(fetch = FetchType.LAZY)
