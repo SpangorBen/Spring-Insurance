@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1338b2-6804-4a93-9147-9c8113113d2c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6c1338b2-6804-4a93-9147-9c8113113d2c" name="Changes" comment="changes in .idea">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/Quote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/QuoteRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/QuoteRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/InsurancePolicyService.java" beforeDir="false" />
@@ -187,11 +186,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729613027078</updated>
-      <workItem from="1729613032711" duration="8723000" />
+      <workItem from="1729613032711" duration="9093000" />
     </task>
+    <task id="LOCAL-00001" summary="changes in .idea">
+      <option name="closed" value="true" />
+      <created>1729677671570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729677671570</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes in .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in .idea" />
   </component>
 </project>

@@ -14,10 +14,10 @@ public class Quote {
     private Long id;
 
     @Enumerated(EnumType.STRING)
-    private InsuranceType insuranceType; // Type of insurance (AUTO, HOME, HEALTH)
+    private InsuranceType insuranceType;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "insurance_id") // Foreign key to the Insurance table
+    @JoinColumn(name = "insurance_id")
     private InsurancePolicy insurance;
 
     private double quoteAmount;
