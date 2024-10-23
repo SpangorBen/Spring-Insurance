@@ -30,9 +30,9 @@ public class GenericRepositoryImpl<T> implements GenericRepository<T> {
     @Transactional
     public T save(T t) {
         try (Session session = sessionFactory.openSession()) {
-//            Transaction transaction = session.beginTransaction();
+            Transaction transaction = session.beginTransaction();
             session.persist(t);
-//            transaction.commit();
+            transaction.commit();
             return t;
         } catch (HibernateException e) {
             logger.severe("Error saving entity: " + e.getMessage());
