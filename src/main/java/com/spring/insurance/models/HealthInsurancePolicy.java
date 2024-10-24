@@ -1,5 +1,6 @@
 package com.spring.insurance.models;
 
+import com.spring.insurance.models.enums.InsuranceStatus;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
@@ -13,8 +14,8 @@ public class HealthInsurancePolicy extends InsurancePolicy{
     public HealthInsurancePolicy() {
     }
 
-    public HealthInsurancePolicy(String policyNumber, LocalDate effectiveDate, User user, String assetType, boolean riskFactor) {
-        super(policyNumber, effectiveDate, user, assetType, riskFactor);
+    public HealthInsurancePolicy(String policyNumber, LocalDate effectiveDate, User user, String assetType, boolean riskFactor, InsuranceStatus status) {
+        super(policyNumber, effectiveDate, user, assetType, riskFactor, status);
     }
 
     @Override

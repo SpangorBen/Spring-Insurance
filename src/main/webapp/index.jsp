@@ -77,6 +77,7 @@
             background-color: #e74c3c;
             color: #fff;
             padding: 80px 0;
+            border-bottom: 9px solid black;
             text-align: center;
         }
 
@@ -86,25 +87,37 @@
         }
 
         /* Speakers styles */
+
+        .container-speaker {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding-top: 5rem;
+
+        }
+
         .speakers {
             background-color: #f1c40f;
-            padding: 80px 0;
+            /*padding: 80px 0;*/
+            border-bottom: 9px solid black;
+
         }
 
         .speakers .container {
             display: flex;
             justify-content: space-between;
-            width: 100%;
         }
 
         .speaker {
             text-align: center;
-            width: 26%;
+            /*width: 26%;*/
         }
 
         .speaker img {
-            /*border-radius: 50%;*/
-            margin-bottom: 20px;
+            border-radius: 4%;
+            /*margin-bottom: 20px;*/
+            height: 85%;
+            width: 80%;
         }
 
         /* Workshops styles */
@@ -232,9 +245,9 @@
         <nav>
             <ul>
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">SPEAKERS</a></li>
-                <li><a href="#">SCHEDULE</a></li>
-                <li><a href="#">SPONSORS</a></li>
+                <li><a href="#">INSURANCES</a></li>
+                <li><a href="#">ABOUT-US</a></li>
+                <li><a href="${pageContext.request.contextPath}/login">LOGIN</a></li>
             </ul>
         </nav>
 <%--        <div class="event-info">--%>
@@ -249,29 +262,29 @@
 <main>
     <section class="hero">
         <div class="hero1">
-            <h1>WEB<br>TALKS</h1>
+            <h1>COVER<br>WOW</h1>
 
         </div>
         <div class="hero2">
-            <h2>World-class Speakers</h2>
+            <h2>World-class Insurance</h2>
             <p>Ut aliquet mauris vitae ante maximus, non rutrum eros aliquet. Duis mattis odio in turpis ullamcorper ornare eget in est.</p>
         </div>
     </section>
     <section class="speakers">
-        <div class="container">
+        <div class="container-speaker">
             <div class="speaker">
                 <img src="https://i.pinimg.com/564x/71/a2/ad/71a2ad52a17abb3ade372394eca9e025.jpg" alt="Gillian Radford">
-                <h3>Gillian Radford</h3>
+                <h3>Auto Insurance</h3>
                 <p>RADFORD & ONEAL</p>
             </div>
             <div class="speaker">
                 <img src="https://i.pinimg.com/564x/bc/cd/6f/bccd6f213051d2f19d7c9d49a7edef25.jpg" alt="Morty Kingsley">
-                <h3>Morty Kingsley</h3>
+                <h3>Health Insurance</h3>
                 <p>KINGSLEY INC.</p>
             </div>
             <div class="speaker">
                 <img src="https://i.pinimg.com/564x/09/9f/cf/099fcff8b39b0a4e3ca7d5aca28be527.jpg" alt="Christine Kort">
-                <h3>Christine Kort</h3>
+                <h3>Home Insurance</h3>
                 <p>KORT & KORT</p>
             </div>
         </div>

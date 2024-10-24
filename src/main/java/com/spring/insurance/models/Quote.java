@@ -1,6 +1,7 @@
 package com.spring.insurance.models;
 
 import com.spring.insurance.models.enums.InsuranceType;
+import com.spring.insurance.models.enums.QuoteStatus;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
@@ -22,6 +23,9 @@ public class Quote {
 
     private double quoteAmount;
     private LocalDate quoteDate;
+
+    @Enumerated(EnumType.STRING)
+    private QuoteStatus quoteStatus = QuoteStatus.PENDING;
 
     public Quote() {
     }
@@ -71,6 +75,14 @@ public class Quote {
 
     public void setQuoteDate(LocalDate quoteDate) {
         this.quoteDate = quoteDate;
+    }
+
+    public QuoteStatus getQuoteStatus() {
+        return quoteStatus;
+    }
+
+    public void setQuoteStatus(QuoteStatus quoteStatus) {
+        this.quoteStatus = quoteStatus;
     }
 
     @Override

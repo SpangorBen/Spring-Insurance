@@ -1,5 +1,6 @@
 package com.spring.insurance.models;
 
+import com.spring.insurance.models.enums.InsuranceStatus;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
@@ -16,8 +17,8 @@ public class AutoInsurancePolicy extends InsurancePolicy{
     public AutoInsurancePolicy() {
     }
 
-    public AutoInsurancePolicy(String policyNumber, LocalDate effectiveDate, User user, String assetType, boolean riskFactor, String vehicleMake, String vehicleModel, boolean noClaimsDiscount) {
-        super(policyNumber, effectiveDate, user, assetType, riskFactor);
+    public AutoInsurancePolicy(String policyNumber, LocalDate effectiveDate, User user, String assetType, boolean riskFactor, String vehicleMake, String vehicleModel, boolean noClaimsDiscount, InsuranceStatus status) {
+        super(policyNumber, effectiveDate, user, assetType, riskFactor, status);
         this.vehicleMake = vehicleMake;
         this.vehicleModel = vehicleModel;
         this.noClaimsDiscount = noClaimsDiscount;

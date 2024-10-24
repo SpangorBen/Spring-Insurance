@@ -30,12 +30,13 @@ public abstract class InsurancePolicy {
     public InsurancePolicy() {
     }
 
-    public InsurancePolicy(String policyNumber, LocalDate effectiveDate, User user, String assetType, boolean riskFactor) {
+    public InsurancePolicy(String policyNumber, LocalDate effectiveDate, User user, String assetType, boolean riskFactor, InsuranceStatus status) {
         this.policyNumber = policyNumber;
         this.effectiveDate = effectiveDate;
         this.user = user;
         this.assetType = assetType;
         this.riskFactor = riskFactor;
+        this.status = status;
     }
 
     public Long getId() {
@@ -68,6 +69,14 @@ public abstract class InsurancePolicy {
 
     public void setRiskFactor(boolean riskFactor) {
         this.riskFactor = riskFactor;
+    }
+
+    public InsuranceStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(InsuranceStatus status) {
+        this.status = status;
     }
 
     public LocalDate getEffectiveDate() {
