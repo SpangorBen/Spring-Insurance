@@ -10,4 +10,5 @@ public interface QuoteService {
     Quote calculateHomeQuote(HomeInsurancePolicy homeInsurancePolicy);
     Quote calculateHealthQuote(HealthInsurancePolicy healthInsurancePolicy);
     Quote saveQuote(Quote quote);
+    Quote getQuoteById(Long id);
 }

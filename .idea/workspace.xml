@@ -10,17 +10,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c1338b2-6804-4a93-9147-9c8113113d2c" name="Changes" comment="changes in .idea">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/enums/InsuranceStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/AutoInsuranceRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/13481/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/13481/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/1247" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1247" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1249" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/1249_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1249_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/1259" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1259" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/1259_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1259_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/1259_vm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1259_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16479" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16482" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16484" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16485" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16487" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16490" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16492" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16495" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16497" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16499" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16502" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16504" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16505" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16507" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16509" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16513" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16515" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16517" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16520" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16522" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16523" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16525" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2224" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2224" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2579" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2579" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2606" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2606" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2608" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2608" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2610" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2610" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2619" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2619" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2619_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2619_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2619_vm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2619_vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2620" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2620" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2658" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2658" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2659" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2659" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2662" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2662" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2663" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2663" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2664" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2664" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2665" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2665" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2666" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2666" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2667" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2667" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2673" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2673" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2674" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2674" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2678" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2678" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2679" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2679" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2696" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2696" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2699" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2699" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2701" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2701" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2702" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2702" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2703" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2703" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2704" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2704" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2840" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2840" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2841" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2841" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/3455" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/3455" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/5002" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/5002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/db/global/pg_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/db/global/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pg_stat/db_0.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pg_stat/db_13481.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pg_stat/db_16384.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pg_stat/global.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/db/pg_wal/000000010000000000000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/db/pg_xact/0000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/AutoInsurancePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/AutoInsurancePolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/HealthInsurancePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/HealthInsurancePolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/HomeInsurancePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/HomeInsurancePolicy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/InsurancePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/InsurancePolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/Quote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/GenericRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/GenericRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/InsurancePolicyRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/interfaces/InsurancePolicyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/interfaces/InsuranceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/InsurancePolicyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/InsuranceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/interfaces/InsurancePolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/interfaces/InsuranceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/HealthInsuranceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/HealthInsuranceRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/HomeInsuranceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/HomeInsuranceRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/interfaces/GenericRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/interfaces/GenericRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/QuoteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/QuoteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/interfaces/QuoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/interfaces/QuoteService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/registerStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/insurance/DatabaseConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/insurance/DatabaseConnectionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +110,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
         <option value="Enum" />
       </list>
     </option>
@@ -73,6 +152,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.DatabaseConnectionTest.executor": "Run",
     "Maven.insurance.spring [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -84,12 +164,24 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3003413",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.spring.insurance.models.enums" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hamza\Desktop\briefs\spring\insurance-spring\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -97,12 +189,27 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.301">
+    <configuration name="DatabaseConnectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="insurance.spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.insurance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.insurance" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.insurance.DatabaseConnectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 10.1.301" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.301" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <deployment>
         <artifact name="insurance.spring:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/insurance_spring_war_exploded" />
+            <option name="CONTEXT_PATH" value="/insurance" />
           </settings>
         </artifact>
       </deployment>
@@ -184,6 +291,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.DatabaseConnectionTest" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.301" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DatabaseConnectionTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -201,7 +317,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729613027078</updated>
-      <workItem from="1729613032711" duration="18398000" />
+      <workItem from="1729613032711" duration="39464000" />
     </task>
     <task id="LOCAL-00001" summary="changes in .idea">
       <option name="closed" value="true" />

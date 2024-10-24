@@ -75,4 +75,16 @@ public class QuoteServiceImpl implements QuoteService {
             throw new RuntimeException("Error saving quote", e);
         }
     }
+
+    @Override
+    public Quote getQuoteById(Long id) {
+        try {
+            Quote quote = quoteRepository.findById(id).orElse(null);
+            logger.info("Retrieved quote by id {}: {}", id, quote);
+            return quote;
+        } catch (Exception e) {
+            logger.error("Error retrieving quote by id {}", id, e);
+            throw new RuntimeException("Error retrieving quote by id " + id, e);
+        }
+    }
 }

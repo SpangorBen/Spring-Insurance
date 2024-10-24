@@ -5,7 +5,8 @@
 <html>
 <head>
     <title>Registration</title>
-<%--    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/register.css">--%>
+<%--    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/registerStyle.css">--%>
+<%--    <link rel="stylesheet" href="css/registerStyle.css">--%>
     <style>
         body {
             font-family: sans-serif;

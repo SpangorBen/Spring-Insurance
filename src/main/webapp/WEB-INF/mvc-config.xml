@@ -11,10 +11,11 @@
            http://www.springframework.org/schema/mvc
            http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <import resource="applicationContext.xml" />
+    <import resource="applicationContext.xml"/>
 
     <context:component-scan base-package="com.spring.insurance" />
 
+    <mvc:resources mapping="/resources/**" location="/css/" />
     <mvc:annotation-driven />
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

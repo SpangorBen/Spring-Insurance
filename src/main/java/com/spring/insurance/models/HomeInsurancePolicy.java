@@ -1,5 +1,6 @@
 package com.spring.insurance.models;
 
+import com.spring.insurance.models.enums.InsuranceStatus;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
@@ -15,8 +16,8 @@ public class HomeInsurancePolicy extends InsurancePolicy{
     public HomeInsurancePolicy() {
     }
 
-    public HomeInsurancePolicy(String policyNumber, LocalDate effectiveDate, User user, String assetType, boolean riskFactor, double propertyValue, boolean securitySystem) {
-        super(policyNumber, effectiveDate, user, assetType, riskFactor);
+    public HomeInsurancePolicy(String policyNumber, LocalDate effectiveDate, User user, String assetType, boolean riskFactor, double propertyValue, boolean securitySystem, InsuranceStatus status) {
+        super(policyNumber, effectiveDate, user, assetType, riskFactor, status);
         this.propertyValue = propertyValue;
         this.securitySystem = securitySystem;
     }
