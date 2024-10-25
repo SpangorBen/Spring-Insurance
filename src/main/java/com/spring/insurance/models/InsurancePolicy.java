@@ -22,6 +22,7 @@ public abstract class InsurancePolicy {
     private InsuranceStatus status;
 
     private LocalDate effectiveDate;
+    private String documentProofPath;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
@@ -37,6 +38,16 @@ public abstract class InsurancePolicy {
         this.assetType = assetType;
         this.riskFactor = riskFactor;
         this.status = status;
+    }
+
+    public InsurancePolicy(String policyNumber, String assetType, boolean riskFactor, InsuranceStatus status, LocalDate effectiveDate, String documentProofPath, User user) {
+        this.policyNumber = policyNumber;
+        this.assetType = assetType;
+        this.riskFactor = riskFactor;
+        this.status = status;
+        this.effectiveDate = effectiveDate;
+        this.documentProofPath = documentProofPath;
+        this.user = user;
     }
 
     public Long getId() {
@@ -85,6 +96,14 @@ public abstract class InsurancePolicy {
 
     public void setEffectiveDate(LocalDate effectiveDate) {
         this.effectiveDate = effectiveDate;
+    }
+
+    public String getDocumentProofPath() {
+        return documentProofPath;
+    }
+
+    public void setDocumentProofPath(String documentProofPath) {
+        this.documentProofPath = documentProofPath;
     }
 
     public User getUser() {

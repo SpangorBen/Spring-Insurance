@@ -1,9 +1,6 @@
 package com.spring.insurance.services;
 
-import com.spring.insurance.models.AutoInsurancePolicy;
-import com.spring.insurance.models.HealthInsurancePolicy;
-import com.spring.insurance.models.HomeInsurancePolicy;
-import com.spring.insurance.models.Quote;
+import com.spring.insurance.models.*;
 import com.spring.insurance.models.enums.InsuranceType;
 import com.spring.insurance.repositories.interfaces.QuoteRepository;
 import com.spring.insurance.services.interfaces.QuoteService;
@@ -15,6 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Service
 public class QuoteServiceImpl implements QuoteService {
@@ -77,6 +75,18 @@ public class QuoteServiceImpl implements QuoteService {
     }
 
     @Override
+    public Quote updateQuote(Quote quote) {
+        try {
+            Quote updatedQuote = quoteRepository.update(quote);
+            logger.info("Updated quote: {}", updatedQuote);
+            return updatedQuote;
+        } catch (Exception e) {
+            logger.error("Error updating quote", e);
+            throw new RuntimeException("Error updating quote", e);
+        }
+    }
+
+    @Override
     public Quote getQuoteById(Long id) {
         try {
             Quote quote = quoteRepository.findById(id).orElse(null);
@@ -85,6 +95,18 @@ public class QuoteServiceImpl implements QuoteService {
         } catch (Exception e) {
             logger.error("Error retrieving quote by id {}", id, e);
             throw new RuntimeException("Error retrieving quote by id " + id, e);
+        }
+    }
+
+    @Override
+    public List<Quote> getQuotesByUser(User loggedInUser) {
+        try {
+            List<Quote> quotes = quoteRepository.findQuotesByUser(loggedInUser);
+            logger.info("Retrieved quotes by user {}: {}", loggedInUser, quotes);
+            return quotes;
+        } catch (Exception e) {
+            logger.error("Error retrieving quotes by user {}", loggedInUser, e);
+            throw new RuntimeException("Error retrieving quotes by user " + loggedInUser, e);
         }
     }
 }

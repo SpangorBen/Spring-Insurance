@@ -55,7 +55,9 @@ public class GenericRepositoryImpl<T> implements GenericRepository<T> {
     @Transactional
     public T update(T t) {
         try (Session session = sessionFactory.openSession()) {
+            Transaction transaction = session.beginTransaction();
             session.merge(t);
+            transaction.commit();
             return t;
         } catch (HibernateException e) {
             logger.severe("Error updating entity: " + e.getMessage());

@@ -10,46 +10,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c1338b2-6804-4a93-9147-9c8113113d2c" name="Changes" comment="changes in .idea">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f870c4f0-5093-477d-bf13-27414dde30a4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f870c4f0-5093-477d-bf13-27414dde30a4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f870c4f0-5093-477d-bf13-27414dde30a4/storage_v2/_src_/database/insurance.2qZaBA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f870c4f0-5093-477d-bf13-27414dde30a4/storage_v2/_src_/database/insurance.2qZaBA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/13481/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/13481/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/1247" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1247" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/1249" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1249" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/1249_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1249_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/1249_vm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1249_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/1259" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1259" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/1259_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1259_fsm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/1259_vm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/1259_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16479" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16482" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16484" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16485" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16487" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16490" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16492" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16495" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16497" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16499" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16502" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16504" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16505" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16507" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16509" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16513" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16515" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16517" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16520" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16522" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16523" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/base/16384/16525" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16627" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16630" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16632" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16633" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16635" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16638" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16640" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16643" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16645" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16647" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16651" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16653" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16654" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16656" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16658" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16662" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16664" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16666" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16669" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16671" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16672" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/16674" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2224" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2224" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2579" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2579" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2606" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2606" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2606_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2606_fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2606_vm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2606_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2608" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2608" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2610" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2610" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2619" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2619" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2619_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2619_fsm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2619_vm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2619_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2620" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2620" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/base/16384/2620_vm" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2620_vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2658" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2658" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2659" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2659" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/base/16384/2662" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/2662" afterDir="false" />
@@ -75,30 +81,26 @@
       <change beforePath="$PROJECT_DIR$/db/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/db/base/16384/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/db/global/pg_control" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/db/global/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg_stat/db_0.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg_stat/db_13481.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg_stat/db_16384.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/pg_stat/global.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pg_stat_tmp/db_0.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pg_stat_tmp/db_13481.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pg_stat_tmp/db_16384.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/pg_stat_tmp/global.stat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/db/pg_wal/000000010000000000000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/db/pg_xact/0000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/postmaster.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/AutoInsurancePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/AutoInsurancePolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/HealthInsurancePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/HealthInsurancePolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/HomeInsurancePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/HomeInsurancePolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/controllers/QuoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/controllers/QuoteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/InsurancePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/InsurancePolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/models/Quote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/GenericRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/GenericRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/HealthInsuranceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/HealthInsuranceRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/HomeInsuranceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/HomeInsuranceRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/interfaces/GenericRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/interfaces/GenericRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/QuoteRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/QuoteRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/interfaces/QuoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/repositories/interfaces/QuoteRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/QuoteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/QuoteServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/interfaces/QuoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/insurance/services/interfaces/QuoteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/registerStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/insurance/DatabaseConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/insurance/DatabaseConnectionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,9 +111,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
         <option value="Jsp File" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -317,7 +319,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729613027078</updated>
-      <workItem from="1729613032711" duration="39464000" />
+      <workItem from="1729613032711" duration="63902000" />
     </task>
     <task id="LOCAL-00001" summary="changes in .idea">
       <option name="closed" value="true" />

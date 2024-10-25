@@ -28,12 +28,12 @@ public class AuthController {
     }
 
     @PostMapping("/register")
-    public String registerUser(@ModelAttribute User user, Model model) {
+    public String registerUser(@ModelAttribute User user, Model model, HttpSession session) {
         try {
             logger.info("Registering user: " + user.getEmail());
             userService.register(user);
-//            return "redirect:/login?success";
-            return "registration";
+            session.setAttribute("loggedInUser", user);
+            return "redirect:/";
         } catch (IllegalArgumentException e) {
             model.addAttribute("error", e.getMessage());
             return "registration";

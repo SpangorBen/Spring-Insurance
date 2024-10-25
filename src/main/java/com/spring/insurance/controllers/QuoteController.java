@@ -15,10 +15,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 
 @Controller
@@ -162,21 +161,26 @@ public class QuoteController {
     // --- Accept/Reject Quote ---
 
     @GetMapping("/{quoteId}/accept")
-    public String acceptQuote(Long quoteId, HttpSession session) {
+    public String acceptQuote(@PathVariable Long quoteId, HttpSession session) {
         User loggedInUser = (User) session.getAttribute("loggedInUser");
         if (loggedInUser == null) {
             return "redirect:/login";
         }
 
+        if (quoteId == null) {
+            logger.error("Quote ID is null");
+            return "redirect:/quotes/myQuotes";
+        }
+
         Quote quote = quoteService.getQuoteById(quoteId);
         quote.setQuoteStatus(QuoteStatus.ACCEPTED);
-        quote = quoteService.saveQuote(quote);
+        quote = quoteService.updateQuote(quote);
 
-        return "redirect:/";
+        return "myQuotes";
     }
 
     @GetMapping("/{quoteId}/reject")
-    public String rejectQuote(Long quoteId, HttpSession session) {
+    public String rejectQuote(@PathVariable Long quoteId, HttpSession session) {
         User loggedInUser = (User) session.getAttribute("loggedInUser");
         if (loggedInUser == null) {
             return "redirect:/login";
@@ -184,8 +188,23 @@ public class QuoteController {
 
         Quote quote = quoteService.getQuoteById(quoteId);
         quote.setQuoteStatus(QuoteStatus.REJECTED);
-        quote = quoteService.saveQuote(quote);
+        quote = quoteService.updateQuote(quote);
 
-        return "redirect:/";
+        return "myQuotes";
+    }
+
+
+    @GetMapping("/myQuotes")
+    public String showMyQuotes(HttpSession session, Model model) {
+        User loggedInUser = (User) session.getAttribute("loggedInUser");
+        if (loggedInUser == null) {
+            return "redirect:/login";
+        }
+        List<Quote> quotes = quoteService.getQuotesByUser(loggedInUser);
+        logger.info("Retrieved quotes by user {}: {}", loggedInUser, quotes);
+
+        model.addAttribute("quotes", quotes);
+
+        return "myQuotes";
     }
 }

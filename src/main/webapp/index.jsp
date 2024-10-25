@@ -39,6 +39,7 @@
             padding: 20px 0;
             display: flex;
             align-items: center;
+            height: 50px;
         }
 
         header nav ul {
@@ -59,13 +60,26 @@
         }
 
         .event-info {
-            margin-left: auto;
-            text-align: right;
+            position: fixed;
+            width: 12%;
+            height: 30%;
+            top: 0;
+            left: 75%;
+            /*margin-left: auto;*/
+            /*text-align: right;*/
+            background-color: #2c3e50;
+            border-bottom: 9px solid black;
+            border-right: 9px solid black;
+            border-left: 9px solid black;
+        }
+
+        .event-info * {
+            margin: 1rem;
         }
 
         .event-info h1 {
             font-size: 48px;
-            margin-bottom: 10px;
+            /*margin-bottom: 10px;*/
         }
 
         .event-info p {
@@ -74,16 +88,33 @@
 
         /* Hero styles */
         .hero {
+            display: flex;
             background-color: #e74c3c;
             color: #fff;
-            padding: 80px 0;
+            /*padding: 80px 0;*/
             border-bottom: 9px solid black;
             text-align: center;
+            align-items: center;
+            height: 500px;
         }
 
         .hero h1 {
-            font-size: 64px;
-            margin-bottom: 20px;
+            font-size: 170px;
+            padding-top: 55px;
+            /*margin-bottom: 20px;*/
+        }
+
+        .hero1 {
+            height: 100%;
+            width: 65%;
+            text-align: center;
+            border-right: 9px solid black;
+        }
+
+        .hero2 {
+            text-align: center;
+            padding: 20px 0;
+            background: #F69F2A;
         }
 
         /* Speakers styles */
@@ -250,11 +281,11 @@
                 <li><a href="${pageContext.request.contextPath}/login">LOGIN</a></li>
             </ul>
         </nav>
-<%--        <div class="event-info">--%>
-<%--            <h1>2019</h1>--%>
-<%--            <p>AUG 10-12</p>--%>
-<%--            <h2>TORONTO<br>CANADA</h2>--%>
-<%--        </div>--%>
+        <div class="event-info">
+            <h1>2019</h1>
+            <p>AUG 10-12</p>
+            <h2>TORONTO<br>CANADA</h2>
+        </div>
 <%--        <a href="#" class="btn">BUY TICKETS</a>--%>
 <%--        <a href="#" class="archive">ARCHIVE</a>--%>
     </div>
@@ -262,7 +293,7 @@
 <main>
     <section class="hero">
         <div class="hero1">
-            <h1>COVER<br>WOW</h1>
+            <h1>SMART<br>COVER</h1>
 
         </div>
         <div class="hero2">

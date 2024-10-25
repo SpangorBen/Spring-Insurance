@@ -11,3 +11,10 @@ services:
       - "5433:5432"
     volumes:
       - ./db:/var/lib/postgresql/data
+  filebrowser:
+    image: filebrowser/filebrowser:latest
+    container_name: filebrowser
+    ports:
+      - "8089:80"
+    volumes:
+      - /docs:/srv
